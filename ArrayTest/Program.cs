@@ -1,4 +1,11 @@
-﻿// 1. Дан одномерный массив целых чисел.
+﻿using ArrayTest;
+
+var arrayLogic = new ArrayLogic();
+int[] inputArray = { 9, 12, 9, 2, 17, 1, 6 };
+int[] sortedArray = arrayLogic.QuickSortArray(inputArray, 0, inputArray.Length - 1);
+Console.WriteLine(string.Join(", ", sortedArray));
+
+// 1. Дан одномерный массив целых чисел.
 
 int[] arrNumb = {3, 5, 10, 4, 1, 6, 9};
 
